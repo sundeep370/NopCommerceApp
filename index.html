@@ -1,16 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>celestialcrescent.com webpage!</title>
-    <meta charset="utf-8">
-
-  </head>
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
- <!-- Brand -->
- <a class="navbar-brand" href="https://celestialcrescent.com/">Home</a>
-
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
+<style>
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -23,7 +16,7 @@ body {
 .navbar a {
   float: left;
   font-size: 16px;
-  color: White;
+  color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -40,7 +33,7 @@ body {
   outline: none;
   color: white;
   padding: 14px 16px;
-  background-color: Grey;
+  background-color: inherit;
   font-family: inherit;
   margin: 0;
 }
@@ -74,39 +67,59 @@ body {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-</style>  
 
-<!-- The navigation menu -->
+.icon-bar {
+  width: 90px;
+  background-color: #555;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+</style>
+</head>
+<body>
+
 <div class="navbar">
-  <a href="#home">Home</a>
-  <div class="subnav">
-    <button class="subnavbtn">About <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#company">Company</a>
-      <a href="#team">Team</a>
-      <a href="#careers">Careers</a>
+  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+  <div class="dropdown">
+    <button class="dropbtn">News 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Contact</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
-  </div>
-  <div class="subnav">
-    <button class="subnavbtn">Services <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#bring">Bring</a>
-      <a href="#deliver">Deliver</a>
-      <a href="#package">Package</a>
-      <a href="#express">Express</a>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Contact 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Contact</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
     </div>
-  </div>
-  <div class="subnav">
-    <button class="subnavbtn">Partners <i class="fa fa-caret-down"></i></button>
-    <div class="subnav-content">
-      <a href="#link1">Link 1</a>
-      <a href="#link2">Link 2</a>
-      <a href="#link3">Link 3</a>
-      <a href="#link4">Link 4</a>
-    </div>
-  </div>
-  <a href="#contact">Contact</a>
+  </div> 
 </div>
-    
-    <footer><div id="footer"><div class="container"><div class="row"><div class="col-lg-4 footer-one"><div id="foot_nav"><false class="menu"><ul><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p></ul></false><div class="footer-link"><h3 class="footer-link-head">About</h3><p><a href="/privacy-policy-disclaimers/">Privacy Policy &amp; Disclaimers</a> <p><a href="https://celestialcrescent.com/">Home 2021</a></p><p><a href="https://celestialcrescent.com/">Best 2021</a></p><span class="copyright">Copyright 2021 © All Rights Reserved</span></p> <p style="font-size: 11px; line-height: 14px; color: rgba(255,255,255,0.4)">Site does not store any files on its server. All contents are provided by non-affiliated third parties.</p> </div> <div class="clearfix"></div> </div><div class="footer-tags"><a title="https://celestialcrescent.com/">Celestial Crescent LLC/</a></div></div></div></footer>
+
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+</body>
+<footer><div id="footer"><div class="container"><div class="row"><div class="col-lg-4 footer-one"><div id="foot_nav"><false class="menu"><ul><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p><p><a href=""></a></p></ul></false><div class="footer-link"><h3 class="footer-link-head">About</h3><p><a href="/privacy-policy-disclaimers/">Privacy Policy &amp; Disclaimers</a> <p><a href="https://celestialcrescent.com/">Home </a></p><p><a href="https://celestialcrescent.com/"></a></p><span class="copyright">Copyright 2021 © All Rights Reserved</span></p> <p style="font-size: 11px; line-height: 14px; color: rgba(255,255,255,0.4)">Site does not store any files on its server. All contents are provided by non-affiliated third parties.</p> </div> <div class="clearfix"></div> </div><div class="footer-tags"><a title="https://celestialcrescent.com/">Celestial Crescent LLC</a></div></div></div></footer>
 </html>
